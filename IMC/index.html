@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name= "viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+ <div class="container2"> 
+  <h1> Calculadora de IMC</h1>
+    </div>
+   <div class="container">       
+       <div class="row">
+           <input type="range" min="100" max="250" value="100" id="estatura" oninput="calc()">
+           <span id="est-val">100 cm</span>
+           
+       </div>
+       <div class="row">
+           <input type="range" min="20" max="200" value="20" id="peso" oninput= "calc()">
+           <span id="peso-val">20 kg</span>
+           
+       </div>
+       <p id ="resultado">20.0</p>
+       <p id="Cat"> Peso saludable </p>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>
